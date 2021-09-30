@@ -61,7 +61,7 @@ const [storedValue, setStoredValue] = useState(() => {
 });
 ```
 
-- Now, let's return `storedValue` from this hook in an array:
+- Now, let's return `storedValue` from this hook in an array:"
 
 ```js
 import { useState } from "react";
