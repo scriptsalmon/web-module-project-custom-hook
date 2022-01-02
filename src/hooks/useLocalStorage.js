@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const useLocalStorage = (key, initialValue) => {
+export const useLocalStorage = (key, initialValue) => {
     //set and update localStorage
     //retrieve that value if user refreshes or closes window
     const [storedValue, setStoredValue] = useState(() => {
